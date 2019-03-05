@@ -3,10 +3,6 @@ import PropTypes from 'prop-types';
 import '../App.css';
 
 class PageSection extends Component {
-    constructor(props){
-        super(props);
-    }
-
     render() {
         return (
             <div id={this.props.sectionID} className="Page-Section">

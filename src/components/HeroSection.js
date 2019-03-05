@@ -3,24 +3,35 @@ import PropTypes from 'prop-types';
 import '../App.css';
 
 class PageSection extends Component {
-    constructor(props){
-        super(props);
-    }
-
     render() {
         return (
-            <div id={this.props.sectionID} className="Page-Section">
+            <div id="home" className="Page-Section">
                 <div className="App-header hero-Image">
-                    <p>
-                        Edit <code>src/App.js</code> and save to reload.
-                    </p>
-                    <a
-                        className="App-link"
-                        href="https://reactjs.org"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Learn React
+                    <div style={{background: 'rgba(0, 0, 0, 0.25)',
+                        position: 'absolute',
+                        width: '100%',
+                        height: '100%'}}>
+                </div>
+                    <div style={{height: '100%', width: '100%', zIndex: 999}}>
+                        <h3>
+                            Hello!
+                        </h3>
+                        <h1 className="header_title">My Name is Gordon MacMaster</h1>
+                        <ul className="social_home list-unstyled text-center">
+                            <li className="list-inline-item" style={{margin: '0 10px'}}><a href="/"><i className="fab fa-facebook fa-2x"></i></a></li>
+                            <li className="list-inline-item" style={{margin: '0 10px'}}><a href="/"><i className="fab fa-linkedin fa-2x"></i></a></li>
+                            <li className="list-inline-item" style={{margin: '0 10px'}}><a href="/"><i className="fab fa-instagram fa-2x"></i></a></li>
+                            <li className="list-inline-item" style={{margin: '0 10px'}}><a href="/"><i className="fab fa-github-square fa-2x"></i></a></li>
+                            <li className="list-inline-item" style={{margin: '0 10px'}}><a href="/"><i className="fab fa-twitter-square fa-2x"></i></a></li>
+                        </ul>
+                        <div className="header_btn">
+                            <a href="../Gordon_MacMaster_Resume.pdf" className="btn btn-outline-custom btn-rounded mt-4" download>Download Resume</a>
+                        </div>
+                    </div>
+                </div>
+                <div className="scroll_down">
+                    <a href="#about" className="scroll">
+                        <i className="fas fa-arrow-down" style={{fontSize: '1.5em'}}></i>
                     </a>
                 </div>
             </div>

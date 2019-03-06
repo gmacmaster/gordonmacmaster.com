@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
-import PageSection from './components/PageSection'
+import AboutSection from './components/AboutSection'
+import ContactSection from './components/ContactSection'
+import EducationSection from './components/EducationSection'
 import HeroSection from './components/HeroSection'
+import WorkSection from './components/WorkSection'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import './App.css';
@@ -11,9 +14,10 @@ class App extends Component {
       <div className="App">
           <Navbar/>
         <HeroSection sectionID='hero'/>
-        <PageSection sectionID='about'/>
-        <PageSection sectionID='experience'/>
-        <PageSection sectionID='contact'/>
+        <AboutSection sectionID='about'/>
+        <EducationSection sectionID='education'/>
+        <WorkSection sectionID='work'/>
+        <ContactSection sectionID='contact'/>
         <Footer/>
       </div>
     );

@@ -18,11 +18,11 @@ class PageSection extends Component {
                         </h3>
                         <h1 className="header_title">My Name is Gordon MacMaster</h1>
                         <ul className="social_home list-unstyled text-center">
-                            <li className="list-inline-item" style={{margin: '0 10px'}}><a href="/"><i className="fab fa-facebook fa-2x"></i></a></li>
-                            <li className="list-inline-item" style={{margin: '0 10px'}}><a href="/"><i className="fab fa-linkedin fa-2x"></i></a></li>
-                            <li className="list-inline-item" style={{margin: '0 10px'}}><a href="/"><i className="fab fa-instagram fa-2x"></i></a></li>
-                            <li className="list-inline-item" style={{margin: '0 10px'}}><a href="/"><i className="fab fa-github-square fa-2x"></i></a></li>
-                            <li className="list-inline-item" style={{margin: '0 10px'}}><a href="/"><i className="fab fa-twitter-square fa-2x"></i></a></li>
+                            <li className="list-inline-item" style={{margin: '0 10px'}}><a href="https://www.facebook.com/gordomacmaster" target='_blank' rel='noopener noreferrer'><i className="fab fa-facebook fa-2x"></i></a></li>
+                            <li className="list-inline-item" style={{margin: '0 10px'}}><a href="https://www.linkedin.com/in/gordon-macmaster" target='_blank' rel='noopener noreferrer'><i className="fab fa-linkedin fa-2x"></i></a></li>
+                            <li className="list-inline-item" style={{margin: '0 10px'}}><a href="https://www.instagram.com/gordomacmaster" target='_blank' rel='noopener noreferrer'><i className="fab fa-instagram fa-2x"></i></a></li>
+                            <li className="list-inline-item" style={{margin: '0 10px'}}><a href="https://github.com/gmacmaster" target='_blank' rel='noopener noreferrer'><i className="fab fa-github-square fa-2x"></i></a></li>
+                            <li className="list-inline-item" style={{margin: '0 10px'}}><a href="https://twitter.com/gordomacmaster" target='_blank' rel='noopener noreferrer'><i className="fab fa-twitter-square fa-2x"></i></a></li>
                         </ul>
                         <div className="header_btn">
                             <a href="../Gordon_MacMaster_Resume.pdf" className="btn btn-outline-custom btn-rounded mt-4" download>Download Resume</a>

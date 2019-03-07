@@ -10,9 +10,9 @@ class PageSection extends Component {
                     <div style={{background: 'rgba(0, 0, 0, 0.25)',
                         position: 'absolute',
                         width: '100%',
-                        height: '100%'}}>
+                        height: '100%',minHeight: '100vh'}}>
                 </div>
-                    <div style={{height: '100%', width: '100%', zIndex: 999, minHeight: '100vh'}}>
+                    <div style={{height: '100%', width: '100%', zIndex: 999}}>
                         <h3>
                             Hello!
                         </h3>

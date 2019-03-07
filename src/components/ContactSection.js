@@ -142,7 +142,7 @@ class ContactSection extends Component {
                                         </div>
                                         <div className="row">
                                             <div className="col-sm-12 text-right">
-                                                <input type="hidden" name="_next" value="http://localhost:3000/#contact" />
+                                                <input type="hidden" name="_next" value="https://gordonmacmaster.com/#contact" />
                                                 <input type="submit" className="btn btn-custom" value="Send Message" />
                                                 </div>
                                         </div>

@@ -18,7 +18,7 @@ class App extends Component {
         <EducationSection sectionID='education'/>
         <WorkSection sectionID='work'/>
         <ContactSection sectionID='contact'/>
-        <Footer/>
+        <Footer sectionID='footer'/>
       </div>
     );
   }

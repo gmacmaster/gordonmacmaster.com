@@ -97,6 +97,11 @@
   margin: 0 auto;
 }
 
+.contactParagraph {
+  max-width: 25%;
+  margin: 0 auto;
+}
+
 /*Folling CSS classes in part from http://srbthemes.com/elvish/index_1.html */
 
 /***********************
@@ -1335,6 +1340,10 @@ button:focus {
 ============================*/
 
 @media (max-width: 768px) {
+  .contactParagraph {
+    max-width: 90%;
+    margin: 0 auto;
+  }
   .aboutParagraph {
     max-width: 90%;
     margin: 0 auto;

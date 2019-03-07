@@ -12,7 +12,7 @@ class PageSection extends Component {
                         width: '100%',
                         height: '100%'}}>
                 </div>
-                    <div style={{height: '100%', width: '100%', zIndex: 999}}>
+                    <div style={{height: '100%', width: '100%', zIndex: 999, minHeight: '100vh'}}>
                         <h3>
                             Hello!
                         </h3>
@@ -25,7 +25,7 @@ class PageSection extends Component {
                             <li className="list-inline-item" style={{margin: '0 10px'}}><a href="https://twitter.com/gordomacmaster" target='_blank' rel='noopener noreferrer'><i className="fab fa-twitter-square fa-2x"></i></a></li>
                         </ul>
                         <div className="header_btn">
-                            <a href="./Gordon_MacMaster_Resume.pdf" className="btn btn-outline-custom btn-rounded mt-4" download>Download Resume</a>
+                            <a href="../Gordon_MacMaster_Resume.pdf" className="btn btn-outline-custom btn-rounded mt-4" download>Download Resume</a>
                         </div>
                     </div>
                 </div>

@@ -6,12 +6,12 @@ class WorkSection extends Component {
     render() {
         return (
             <div id={this.props.sectionID} className="Page-Section">
-                <div style={{paddingTop: '5%', background: '#282c34', minHeight: '100vh'}}>
-                    <h1 className="header_title" style={{color: 'white'}}>Work Experience</h1>
+                <div style={{paddingTop: '5%', background: '#282c34', minHeight: '100vh', paddingBottom: '25px'}}>
+                    <h1 className="header_title" style={{color: 'white', textTransform: 'lowercase'}}>work experience</h1>
                     <div className="timeline">
                         <div className="timeline-container left">
                             <div className="content">
-                                <h2>2019</h2>
+                                <h2>2019-present</h2>
                                 <h4>Software Development Intern</h4>
                                 <p style={{margin: 0}}> Tesla Motors, Digital Products</p>
                                 <p style={{margin: 0}}>Full stack developer. React.js, Javascript, Node.js</p>
@@ -41,7 +41,7 @@ class WorkSection extends Component {
                         </div>
                         <div className="timeline-container left">
                             <div className="content">
-                                <h2>2014-Present</h2>
+                                <h2>2014-present</h2>
                                 <h4>Volunteer Firefighter</h4>
                                 <p style={{margin: 0}}>Woodstock Fire Dept.</p>
                             </div>

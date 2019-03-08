@@ -48,7 +48,7 @@ class ContactSection extends Component {
                         contact me
                     </h1>
                     <p className="contactParagraph">
-                        Feel free to reach out to learn about my experience, plans for the future, or business opportunities
+                        Feel free to reach out to learn about my experience, plans for the future, or business inquiries
                     </p>
                     <div style={{maxWidth: '50%', margin: '25px auto 0 auto'}}>
                         {this.state.errors ? <div className="alert alert-danger">

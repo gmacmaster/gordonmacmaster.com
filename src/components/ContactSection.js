@@ -40,6 +40,7 @@ class ContactSection extends Component {
         }
     }
     render() {
+        console.log(this.state);
         return (
             <div id={this.props.sectionID} className="Page-Section">
                 <div style={{paddingTop: '5%'}}>
@@ -96,6 +97,7 @@ class ContactSection extends Component {
                                                            style={this.state.errors && this.state.name === ''?
                                                                {color: '#721c24', backgroundColor: '#f8d7da',
                                                                    borderColor: '#f5c6cb'} : null}
+                                                           required
                                                     />
                                                 </div>
                                             </div>
@@ -108,7 +110,9 @@ class ContactSection extends Component {
                                                            style={this.state.errors && this.state.email === ''?
                                                                {color: '#721c24', backgroundColor: '#f8d7da',
                                                                    borderColor: '#f5c6cb'} : null}
-                                                           value={this.state.email} onChange={this.handleChange}/>
+                                                           value={this.state.email} onChange={this.handleChange}
+                                                           required
+                                                    />
                                                 </div>
                                             </div>
                                             <div className="col-lg-12">
@@ -121,6 +125,7 @@ class ContactSection extends Component {
                                                                {color: '#721c24', backgroundColor: '#f8d7da',
                                                                borderColor: '#f5c6cb'} : null}
                                                            onChange={this.handleChange}
+                                                           required
                                                     />
                                                 </div>
                                             </div>
@@ -136,6 +141,7 @@ class ContactSection extends Component {
                                                               style={this.state.errors && this.state.message === ''?
                                                                   {color: '#721c24', backgroundColor: '#f8d7da',
                                                                       borderColor: '#f5c6cb'} : null}
+                                                              required
                                                     />
                                                 </div>
                                             </div>

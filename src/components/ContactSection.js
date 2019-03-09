@@ -45,7 +45,7 @@ class ContactSection extends Component {
                 <div style={{paddingTop: '5%'}}>
                     <img src={logo} alt="Logo" style={{maxHeight: '150px'}}/>
                     <h1 style={{  fontSize: '60px', fontWeight: 400, lineHeight: 1.2}}>
-                        contact me
+                        Contact Me
                     </h1>
                     <p className="contactParagraph">
                         Feel free to reach out to learn about my experience, plans for the future, or business inquiries
@@ -143,7 +143,7 @@ class ContactSection extends Component {
                                         <div className="row">
                                             <div className="col-sm-12 text-right">
                                                 <input type="hidden" name="_next" value="https://gordonmacmaster.com/#contact" />
-                                                <input type="submit" className="btn btn-custom" value="Send Message" />
+                                                <input type="submit" className="btn btn-custom" value="Send Message" style={{marginBottom: '10px'}}/>
                                                 </div>
                                         </div>
                                     </form>

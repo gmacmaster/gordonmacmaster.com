@@ -11,7 +11,7 @@ class AboutSection extends Component {
                 <div style={{paddingTop: '5%'}}>
                     <img src={logo} alt="Logo" style={{maxHeight: '150px'}}/>
                     <h1 style={{  fontSize: '60px', fontWeight: 400, lineHeight: 1.2}}>
-                        i am a full stack developer
+                        I Am A Full Stack Developer
                     </h1>
                     <p className="aboutParagraph">My name is Gordon MacMaster. I am a junior computer science and information science major at the University of Vermont. I have six years
                         of programing experience in various languages and frameworks. I have interned with the Vermont Agency of Digital Services, Pennsylvania Multifamily

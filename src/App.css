@@ -92,6 +92,14 @@
   max-height: 500px;
 }
 
+.uvmlogo {
+  max-height: 200px;
+  max-width: 100%
+}
+
+.woodstocklogo {
+  max-width: 25%;
+}
 .aboutParagraph {
   max-width: 50%;
   margin: 0 auto;

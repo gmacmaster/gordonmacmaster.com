@@ -7,7 +7,7 @@ class WorkSection extends Component {
         return (
             <div id={this.props.sectionID} className="Page-Section">
                 <div style={{paddingTop: '5%', background: '#282c34', minHeight: '100vh', paddingBottom: '25px'}}>
-                    <h1 className="header_title" style={{color: 'white', textTransform: 'lowercase'}}>work experience</h1>
+                    <h1 className="header_title" style={{color: 'white'}}>Work Experience</h1>
                     <div className="timeline">
                         <div className="timeline-container left">
                             <div className="content">

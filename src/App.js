@@ -15,8 +15,8 @@ class App extends Component {
           <Navbar/>
         <HeroSection sectionID='hero'/>
         <AboutSection sectionID='about'/>
-        <EducationSection sectionID='education'/>
         <WorkSection sectionID='work'/>
+        <EducationSection sectionID='education'/>
         <ContactSection sectionID='contact'/>
         <Footer sectionID='footer'/>
       </div>

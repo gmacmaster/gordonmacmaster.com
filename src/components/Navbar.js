@@ -31,10 +31,10 @@ class Navbar extends Component {
                                 <a href="#about" className="nav-link">About</a>
                             </li>
                             <li className="nav-item">
-                                <a href="#education" className="nav-link">Education</a>
+                                <a href="#work" className="nav-link">Work</a>
                             </li>
                             <li className="nav-item">
-                                <a href="#work" className="nav-link">Work</a>
+                                <a href="#education" className="nav-link">Education</a>
                             </li>
                             <li className={this.state.contactActive ? "nav-item active" : "nav-item"}>
                                 <a href="#contact" className="nav-link">Contact</a>

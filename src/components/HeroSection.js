@@ -25,7 +25,7 @@ class PageSection extends Component {
                             <li className="list-inline-item" style={{margin: '0 10px'}}><a href="https://twitter.com/gordomacmaster" target='_blank' rel='noopener noreferrer'><i className="fab fa-twitter-square fa-2x"></i></a></li>
                         </ul>
                         <div className="header_btn">
-                            <a href="../Gordon_MacMaster_Resume.pdf" className="btn btn-outline-custom btn-rounded mt-4" download>Download Resume</a>
+                            <a href="../Gordon_MacMaster_Resume.pdf" className="btn btn-outline-custom btn-rounded mt-4" target="blank">Download Resume</a>
                         </div>
                     </div>
                 </div>

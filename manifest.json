@@ -3,7 +3,7 @@
   "name": "Gordon MacMaster",
   "icons": [
     {
-      "src": "/static/media/logo.0f38ba38.png",
+      "src": "./static/media/logo.0f38ba38.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     }
